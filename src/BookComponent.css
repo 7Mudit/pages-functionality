@@ -1,0 +1,61 @@
+/* General Styling for Flipbook Parent */
+.stf__parent {
+    position: relative;
+    max-width: 100%;
+}
+
+/* The Wrapper Styling */
+.stf__wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+/* General Page Styling */
+.demoPage {
+    padding: 20px;
+    background-color: bisque;
+    color: black;
+    border: 1px solid #c2b5a3;
+    /* display: none; */
+}
+
+.demoPage h1 {
+    font-size: 24px;
+    margin-top: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.demoPage p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 15px;
+}
+
+/* Specific Page Styling based on its additional classes */
+
+/* Hard right page styling */
+.demoPage.--hard.--right {
+    /* You can add specific styling here if needed */
+}
+
+/* Hard left simple page styling */
+.demoPage.--hard.--left.--simple {
+    position: absolute;
+    z-index: 1;
+}
+
+/* Hard right simple page styling */
+.demoPage.--hard.--right.--simple {
+    position: absolute;
+    z-index: 1;
+}
+
+/* Shadows and other effects */
+.stf__outerShadow,
+.stf__innerShadow,
+.stf__hardShadow,
+.stf__hardInnerShadow {
+    display: block;
+    /* as they are already set to none, but can be styled further if needed */
+}
